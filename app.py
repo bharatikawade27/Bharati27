@@ -10,3 +10,8 @@ print("Addition:", a + b)
 print("Subtraction:", a - b)
 print("Multiplication:", a * b)
 print("Division:", a / b)
+
+def greet(name):
+  if not name:
+    return "Invalid input"
+  return f"Hello {name}"
